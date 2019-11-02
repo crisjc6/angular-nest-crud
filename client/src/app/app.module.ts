@@ -8,6 +8,11 @@ import { AppComponent } from './app.component';
 import { ProductFormComponent } from './components/product-form/product-form.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ChartModule } from 'primeng/chart';
+import { ToastModule } from 'primeng/toast';
+import { TabViewModule } from 'primeng/tabview';
+import { CodeHighlighterModule } from 'primeng/codehighlighter';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ChartModule,
+    ToastModule,
+    TabViewModule,
+    CodeHighlighterModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
